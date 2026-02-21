@@ -111,3 +111,25 @@
     font-size: 1.1rem;
   }
 }
+
+@media (max-width: 480px) {
+  .about {
+    padding: 50px 16px;
+  }
+
+  .about-text p {
+    font-size: 0.9rem;
+  }
+
+  .highlight-box {
+    padding: 1.25rem;
+  }
+
+  .highlight-box h3 {
+    font-size: 1rem;
+  }
+
+  .highlight-box p {
+    font-size: 0.85rem;
+  }
+}

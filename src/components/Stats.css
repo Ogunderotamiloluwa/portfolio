@@ -115,7 +115,33 @@
 }
 
 @media (max-width: 480px) {
+  .stats {
+    padding: 50px 16px;
+  }
+
   .stats-grid {
     grid-template-columns: 1fr;
+    gap: 15px;
+  }
+
+  .stat-card {
+    padding: 20px 16px;
+  }
+
+  .stat-icon {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .stat-number {
+    font-size: 1.75rem;
+  }
+
+  .stat-label {
+    font-size: 0.85rem;
+  }
+
+  .stat-description {
+    font-size: 0.75rem;
   }
 }

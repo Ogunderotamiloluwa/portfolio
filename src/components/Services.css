@@ -137,3 +137,42 @@
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 480px) {
+  .services {
+    padding: 50px 16px;
+  }
+
+  .services .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .services .section-header p {
+    font-size: 0.9rem;
+  }
+
+  .services-grid {
+    gap: 15px;
+  }
+
+  .service-card {
+    padding: 20px 16px;
+  }
+
+  .service-icon {
+    font-size: 1.75rem;
+    margin-bottom: 15px;
+  }
+
+  .service-card h3 {
+    font-size: 1rem;
+  }
+
+  .service-card p {
+    font-size: 0.85rem;
+  }
+
+  .service-features li {
+    font-size: 0.8rem;
+  }
+}

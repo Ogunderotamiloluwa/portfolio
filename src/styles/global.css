@@ -110,6 +110,32 @@ section {
   }
 }
 
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+  }
+
+  section {
+    padding: 50px 16px;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}
+
 /* Animations */
 @keyframes fadeInUp {
   from {

@@ -103,3 +103,29 @@
     gap: 1.5rem;
   }
 }
+
+@media (max-width: 480px) {
+  .skills {
+    padding: 50px 16px;
+  }
+
+  .skill-category {
+    padding: 1.25rem;
+  }
+
+  .skill-category h3 {
+    font-size: 1.1rem;
+  }
+
+  .skills-list {
+    gap: 1.25rem;
+  }
+
+  .skill-item {
+    gap: 0.5rem;
+  }
+
+  .skill-item span {
+    font-size: 0.8rem;
+  }
+}
