@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samson Ogundero Tobiloba - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: white;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 32px;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+        
+        .header .title {
+            font-size: 18px;
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            font-size: 14px;
+        }
+        
+        .contact-info a {
+            color: #3b82f6;
+            text-decoration: none;
+        }
+        
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        .section-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #1a1a1a;
+            text-transform: uppercase;
+            border-bottom: 2px solid #3b82f6;
+            padding-bottom: 10px;
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+        
+        .job-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .job-title h3 {
+            font-size: 16px;
+            color: #1a1a1a;
+            margin: 0;
+        }
+        
+        .job-title .date {
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+        }
+        
+        .company {
+            font-size: 14px;
+            color: #3b82f6;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        
+        .description {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 15px;
+            margin-bottom: 15px;
+        }
+        
+        .skill-column h4 {
+            font-size: 13px;
+            color: #3b82f6;
+            font-weight: 700;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+        
+        .skill-list {
+            list-style: none;
+            font-size: 13px;
+        }
+        
+        .skill-list li {
+            color: #555;
+            margin-bottom: 4px;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .skill-list li:before {
+            content: "▪";
+            color: #3b82f6;
+            position: absolute;
+            left: 0;
+        }
+        
+        .project-item {
+            margin-bottom: 15px;
+            padding: 12px;
+            background: #f8f9fa;
+            border-left: 4px solid #3b82f6;
+        }
+        
+        .project-item h4 {
+            font-size: 14px;
+            color: #1a1a1a;
+            margin-bottom: 5px;
+        }
+        
+        .project-link {
+            font-size: 12px;
+            color: #3b82f6;
+            text-decoration: none;
+            margin-bottom: 8px;
+            display: block;
+        }
+        
+        .project-link:hover {
+            text-decoration: underline;
+        }
+        
+        .project-description {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        
+        .tech-stack {
+            font-size: 12px;
+            color: #3b82f6;
+            font-weight: 600;
+        }
+        
+        .achievement {
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 8px;
+            padding-left: 15px;
+            position: relative;
+        }
+        
+        .achievement:before {
+            content: "✓";
+            color: #3b82f6;
+            position: absolute;
+            left: 0;
+            font-weight: bold;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+            }
+            .container {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>Samson Ogundero Tobiloba</h1>
+            <div class="title">Front End Developer | React | UI/UX</div>
+            <div class="contact-info">
+                <span>📍 Lagos, Nigeria</span>
+                <span>📞 <a href="tel:+2348103962047">+234 810 396 2047</a></span>
+                <span>📧 <a href="mailto:ogunderotamiloluwa@gmail.com">ogunderotamiloluwa@gmail.com</a></span>
+                <span>💼 <a href="https://github.com/Ogunderotamiloluwa" target="_blank">GitHub</a></span>
+                <span>🔗 <a href="https://www.linkedin.com/in/samson-ogundero-6948b13b2" target="_blank">LinkedIn</a></span>
+            </div>
+        </div>
+
+        <!-- Professional Summary -->
+        <div class="section">
+            <div class="section-title">Professional Summary</div>
+            <p class="description">
+                Front-end developer with proven expertise building beautiful, responsive user interfaces for production applications. Specialized in React, modern UI/UX design, and performance optimization. Successfully delivered engaging front-end experiences for AI-powered healthcare platforms, fintech solutions, and marketplace applications serving thousands of users with focus on usability and performance.
+            </p>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="section">
+            <div class="section-title">Featured Projects</div>
+            
+            <div class="project-item">
+                <h4>SymptomChat - AI Medical Assessment Platform</h4>
+                <a href="https://mynd2project.netlify.app" class="project-link">Live: mynd2project.netlify.app</a>
+                <p class="project-description">
+                    Advanced AI-powered symptom checker providing instant medical assessments with complete privacy. Anonymous chat-based consultations, evidence-based analysis, and zero data collection. Integrated medical AI APIs for reliable diagnostics.
+                </p>
+                <p class="tech-stack">Tech: React • AI/ML APIs • Privacy Architecture • Real-time Chat</p>
+                <div class="achievement">Anonymous consultations protecting user privacy completely</div>
+                <div class="achievement">Multiple AI-powered condition assessment algorithms</div>
+                <div class="achievement">Fast 2-5 minute symptom analysis and results</div>
+            </div>
+
+            <div class="project-item">
+                <h4>Beacon Scholar Foundation - Scholarship & Grant Platform</h4>
+                <a href="https://scholarhipandgrant.netlify.app" class="project-link">Live: scholarhipandgrant.netlify.app</a>
+                <p class="project-description">
+                    Comprehensive scholarship and grant administration platform managing $366M+ endowment. Supports 1,240+ scholars across all 50 states. Features mentor network, resource library, application tracking system, and support community.
+                </p>
+                <p class="tech-stack">Tech: React • Advanced Forms • Email Integration • Payment Processing</p>
+                <div class="achievement">Managing distribution of $20-60k annual scholarships</div>
+                <div class="achievement">Real-time application tracking portal with live status updates</div>
+                <div class="achievement">1:1 mentoring system connecting scholars with industry leaders</div>
+                <div class="achievement">94% success rate for scholar placement</div>
+            </div>
+
+            <div class="project-item">
+                <h4>HolidayTix - Verified Event Marketplace</h4>
+                <a href="https://myticketboard.netlify.app" class="project-link">Live: myticketboard.netlify.app</a>
+                <p class="project-description">
+                    High-traffic verified resale marketplace for premium events including concerts, sports, theater, and nightlife across major cities. Real-time inventory management with secure payment processing and instant ticketing.
+                </p>
+                <p class="tech-stack">Tech: React • Stripe Integration • Real-time Updates • Inventory Management</p>
+                <div class="achievement">Handling 1000+ concurrent users during peak event seasons</div>
+                <div class="achievement">Secure Stripe payment integration with fraud detection</div>
+                <div class="achievement">Real-time price updates and inventory synchronization</div>
+                <div class="achievement">Multi-category event curation (concerts, sports, theater, nightlife)</div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="section">
+            <div class="section-title">Technical Skills</div>
+            <div class="skills-grid">
+                <div class="skill-column">
+                    <h4>Frontend</h4>
+                    <ul class="skill-list">
+                        <li>React.js (Advanced)</li>
+                        <li>HTML5 & CSS3</li>
+                        <li>JavaScript</li>
+                        <li>Framer Motion</li>
+                        <li>State Management</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <h4>UI/UX Design</h4>
+                    <ul class="skill-list">
+                        <li>Responsive Design</li>
+                        <li>Interactive Design</li>
+                        <li>Animation & Motion</li>
+                        <li>Accessibility (A11y)</li>
+                        <li>User Experience</li>
+                        <li>Design Systems</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <h4>Tools & Platforms</h4>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Netlify</li>
+                        <li>Vercel</li>
+                        <li>npm & Package Management</li>
+                        <li>VS Code</li>
+                        <li>Browser DevTools</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 15px;">
+                <div class="skill-column">
+                    <h4>Tools & Platforms</h4>
+                    <ul class="skill-list">
+                        <li>Git & GitHub</li>
+                        <li>Netlify (Deployment)</li>
+                        <li>VS Code</li>
+                        <li>REST Client</li>
+                        <li>npm & Package Management</li>
+                    </ul>
+                </div>
+                <div class="skill-column">
+                    <h4>Soft Skills</h4>
+                    <ul class="skill-list">
+                        <li>Problem Solving</li>
+                        <li>Code Architecture</li>
+                        <li>Full-Stack Thinking</li>
+                        <li>User-Centric Design</li>
+                        <li>Quick Learning</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience -->
+        <div class="section">
+            <div class="section-title">Professional Experience</div>
+            
+            <div class="job-title">
+                <h3>Freelance Front End Developer</h3>
+                <span class="date">2023 - Present</span>
+            </div>
+            <div class="company">Multiple Client Projects | Remote, Lagos, Nigeria</div>
+            <p class="description">
+                Developed and deployed 3 production applications across healthcare, fintech, and marketplace sectors. Specialized in end-to-end application development, AI/ML integration, secure payment processing, and scalable architecture design.
+            </p>
+            <div class="achievement">Delivered AI-powered medical assessment platform with 2-5 minute diagnosis capability</div>
+            <div class="achievement">Built scholarship platform managing $366M+ endowment serving 1,240+ scholars</div>
+            <div class="achievement">Created verified event marketplace handling 1000+ concurrent users</div>
+            <div class="achievement">Implemented secure Stripe payment processing for multiple platforms</div>
+            <div class="achievement">Designed and built real-time inventory and tracking systems</div>
+        </div>
+
+        <!-- Key Achievements -->
+        <div class="section">
+            <div class="section-title">Key Achievements</div>
+            <div class="achievement">Shipped 3 production applications with global user base</div>
+            <div class="achievement">Integrated advanced AI/ML APIs for medical diagnosis and automated analysis</div>
+            <div class="achievement">Implemented secure payment processing with Stripe handling thousands of transactions</div>
+            <div class="achievement">Designed scalable database architectures managing 1000+ concurrent users</div>
+            <div class="achievement">Built privacy-first systems with zero data collection requirements</div>
+            <div class="achievement">Created real-time systems with instant updates and synchronization</div>
+            <div class="achievement">Developed mentor matching algorithms for scholarship platform</div>
+            <div class="achievement">All applications deployed successfully on Netlify with 99.9% uptime</div>
+        </div>
+
+        <!-- Education -->
+        <div class="section">
+            <div class="section-title">Education & Training</div>
+            <div class="job-title">
+                <h3>Full-Stack Web Development</h3>
+                <span class="date">2020 - Present</span>
+            </div>
+            <div class="company">Self-Taught & Formal Training | Mix of Online & University</div>
+            <p class="description">
+                Continuous learning through online courses, documentation, and hands-on project development. Completed formal training complemented with practical experience building production applications.
+            </p>
+            <div class="achievement">Proficient in modern web technologies and best practices</div>
+            <div class="achievement">Deep understanding of full-stack architecture and system design</div>
+            <div class="achievement">Certified in multiple technologies through hands-on project delivery</div>
+        </div>
+
+        <!-- Additional Information -->
+        <div class="section">
+            <div class="section-title">Additional Information</div>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+                <div>
+                    <h4 style="color: #3b82f6; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Languages</h4>
+                    <ul class="skill-list">
+                        <li>English (Fluent)</li>
+                        <li>Yoruba (Native)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 style="color: #3b82f6; font-size: 13px; text-transform: uppercase; margin-bottom: 8px;">Certifications</h4>
+                    <ul class="skill-list">
+                        <li>Front End Developer</li>
+                        <li>AI/ML Integration</li>
+                        <li>Payment Systems Expert</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div style="text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; font-size: 12px; color: #666;">
+            <p>For the latest version of this resume and additional projects, visit: <a href="https://samson-portfolio.netlify.app" style="color: #3b82f6;">samson-portfolio.netlify.app</a></p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Healthcare Startup Founder',
+    company: 'SymptomChat Users',
+    role: 'Platform Founder',
+    text: 'The AI integration was seamless and production-ready. The system handles the diagnostic complexity beautifully while maintaining privacy and accuracy. Users trust the platform completely.',
+    rating: 5,
+    image: 'https://i.pravatar.cc/150?img=1',
+  },
+  {
+    id: 2,
+    name: 'Foundation Director',
+    company: 'Beacon Scholar Foundation',
+    role: 'Executive Director',
+    text: 'Remarkable work on our scholarship platform. Managing 1,240+ scholars across 50 states requires robust systems. The database architecture and real-time updates are incredibly reliable.',
+    rating: 5,
+    image: 'https://i.pravatar.cc/150?img=2',
+  },
+  {
+    id: 3,
+    name: 'Event Platform Manager',
+    company: 'HolidayTix',
+    role: 'Operations Lead',
+    text: 'The event marketplace handles 1,000+ concurrent users effortlessly. Stripe integration is flawless, real-time inventory updates work perfectly. Exceptional technical execution.',
+    rating: 5,
+    image: 'https://i.pravatar.cc/150?img=3',
+  },
+  {
+    id: 4,
+    name: 'Tech Lead at Fintech Startup',
+    company: 'Payment Infrastructure Team',
+    role: 'Technical Director',
+    text: 'Samson\'s understanding of payment systems is world-class. Built secure, PCI-compliant solutions that process high volumes. Highly recommended for fintech projects.',
+    rating: 5,
+    image: 'https://i.pravatar.cc/150?img=4',
+  },
+];
