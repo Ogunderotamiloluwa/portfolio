@@ -24,7 +24,7 @@
 
 @media (max-width: 480px) {
   .project-image {
-    height: 180px;
+    height: 120px;
   }
 }
 
@@ -84,29 +84,36 @@
 
 @media (max-width: 480px) {
   .project-content {
-    padding: 1.25rem;
+    padding: 0.9rem;
   }
 
   .project-content h3 {
-    font-size: 1.1rem;
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
   }
 
   .project-content p {
-    font-size: 0.85rem;
+    font-size: 0.75rem;
+    margin-bottom: 0.75rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
   }
 
   .project-tags {
-    gap: 0.5rem;
+    gap: 0.3rem;
+    margin-bottom: 0.75rem;
   }
 
   .tag {
-    padding: 0.4rem 0.8rem;
-    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
   }
 
   .link-btn {
-    padding: 0.65rem 0.75rem;
-    font-size: 0.8rem;
+    padding: 0.5rem 0.6rem;
+    font-size: 0.7rem;
   }
 }
 
@@ -121,15 +128,6 @@
   margin-bottom: 1.5rem;
   flex: 1;
   line-height: 1.6;
-}
-
-@media (max-width: 480px) {
-  .project-content p {
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
 }
 
 .project-tags {
