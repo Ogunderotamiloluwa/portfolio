@@ -26,8 +26,7 @@ export default function Contact() {
     setLoading(true)
 
     try {
-      // Replace with your backend API endpoint
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://formspree.io/f/xgoppdqb', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

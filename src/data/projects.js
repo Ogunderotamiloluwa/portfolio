@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: 1,
-    title: 'SymptomChat - AI Medical Assessment',
-    description: 'An advanced AI-powered symptom checker providing instant medical assessments. Features anonymous chat-based consultations, evidence-based analysis, and complete privacy with no data collection.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop',
-    tags: ['React', 'AI/ML', 'Medical API', 'Privacy-Focused', 'Real-time Chat'],
+    title: 'PA Boss - AI Personal Assistant',
+    description: 'An intelligent personal assistant platform powered by AI to help users execute their goals with precision. Features AI-powered recommendations, real-time habit tracking, progress monitoring, and secure data encryption. Already trusted by 1000+ active users tracking 50k+ goals with a 98% success rate.',
+    image: 'https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500&h=300&fit=crop',
+    tags: ['React', 'AI/ML', 'Real-time Updates', 'Data Encryption', 'Habit Tracking'],
     github: 'https://github.com/Ogunderotamiloluwa',
-    live: 'https://mynd2project.netlify.app',
+    live: 'https://personal-assistan.netlify.app',
   },
   {
     id: 2,
@@ -19,11 +19,29 @@ export const projects = [
   },
   {
     id: 3,
+    title: 'WorldCups - FIFA 2026 Ticket Booking',
+    description: 'Premier ticket booking platform for the 2026 FIFA World Cup featuring all 64 matches across 5 stunning stadiums. Users can browse matches, select from interactive seat maps with VIP/Regular/Economy options, enjoy secure payment processing, and receive instant QR code confirmation. Mobile-friendly with 12,800+ available seats and real-time booking updates.',
+    image: 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=500&h=300&fit=crop',
+    tags: ['React', 'Stripe', 'Interactive Seat Selection', 'QR Code Tickets', 'Real-time Updates'],
+    github: 'https://github.com/Ogunderotamiloluwa',
+    live: 'https://wordcups.netlify.app',
+  },
+  {
+    id: 4,
     title: 'HolidayTix - Event Ticket Marketplace',
     description: 'A dynamic event ticket marketplace for concerts, sports, theater, and nightlife across major cities. Features real-time event listings, secure booking system, and instant ticket delivery with category filtering and price transparency.',
     image: 'https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=500&h=300&fit=crop',
     tags: ['React', 'Stripe', 'Real-time Updates', 'Inventory Management'],
     github: 'https://github.com/Ogunderotamiloluwa',
     live: 'https://myticketboard.netlify.app',
+  },
+  {
+    id: 5,
+    title: 'SymptomChat - AI Medical Assessment',
+    description: 'An advanced AI-powered symptom checker providing instant medical assessments. Features anonymous chat-based consultations, evidence-based analysis, and complete privacy with no data collection.',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=500&h=300&fit=crop',
+    tags: ['React', 'AI/ML', 'Medical API', 'Privacy-Focused', 'Real-time Chat'],
+    github: 'https://github.com/Ogunderotamiloluwa',
+    live: 'https://mynd2project.netlify.app',
   },
 ]

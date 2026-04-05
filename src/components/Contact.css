@@ -62,6 +62,8 @@
   border: 1px solid var(--border-color);
   border-radius: 8px;
   transition: var(--transition);
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .contact-link:hover {
