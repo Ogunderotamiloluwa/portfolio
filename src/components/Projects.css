@@ -76,17 +76,17 @@
 
 @media (max-width: 480px) {
   .projects {
-    padding: 30px 16px;
+    padding: 35px 16px;
   }
 
   .projects .section-title {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
   }
 
   .projects-grid {
     grid-template-columns: 1fr;
-    gap: 0.9rem;
+    gap: 1rem;
   }
 
   .projects-grid > :nth-child(1),

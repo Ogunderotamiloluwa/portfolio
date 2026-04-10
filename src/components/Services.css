@@ -140,24 +140,38 @@
 
 @media (max-width: 480px) {
   .services {
-    padding: 50px 16px;
+    padding: 35px 16px;
   }
 
   .services .section-header h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
   }
 
   .services .section-header p {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
+    margin-bottom: 1.5rem;
   }
 
   .services-grid {
-    gap: 15px;
+    gap: 1rem;
   }
 
   .service-card {
-    padding: 20px 16px;
+    padding: 1.3rem 1.15rem;
+    border-radius: 8px;
   }
+
+  .service-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .service-card p {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
 
   .service-icon {
     font-size: 1.75rem;

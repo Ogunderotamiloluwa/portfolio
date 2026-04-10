@@ -212,34 +212,43 @@
 
 @media (max-width: 480px) {
   .contact {
-    padding: 50px 16px;
+    padding: 35px 16px;
   }
 
   .contact-info h3 {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .contact-info > p {
+    font-size: 0.95rem;
+    margin-bottom: 1.5rem;
   }
 
   .contact-form {
-    padding: 1.25rem;
+    padding: 1.3rem;
   }
 
   .contact-link {
-    padding: 1rem;
-    gap: 1rem;
+    padding: 1.1rem;
+    gap: 1.1rem;
   }
 
   .form-group input,
   .form-group textarea {
-    padding: 0.65rem 0.85rem;
+    padding: 0.7rem 0.9rem;
     font-size: 16px;
+    border-radius: 6px;
   }
 
   .submit-btn {
-    padding: 0.9rem;
+    padding: 0.95rem;
+    font-size: 0.95rem;
   }
 
   .download-btn {
     width: 100%;
     justify-content: center;
+    padding: 0.9rem 1.5rem;
   }
 }

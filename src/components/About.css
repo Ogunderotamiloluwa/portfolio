@@ -114,22 +114,36 @@
 
 @media (max-width: 480px) {
   .about {
-    padding: 50px 16px;
+    padding: 35px 16px;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
   }
 
   .about-text p {
-    font-size: 0.9rem;
+    font-size: 0.95rem;
+    margin-bottom: 1.2rem;
+    line-height: 1.7;
+  }
+
+  .about-highlights {
+    gap: 1.2rem;
   }
 
   .highlight-box {
-    padding: 1.25rem;
+    padding: 1.3rem;
+    border-radius: 8px;
   }
 
   .highlight-box h3 {
-    font-size: 1rem;
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
   }
 
   .highlight-box p {
-    font-size: 0.85rem;
+    font-size: 0.87rem;
+    line-height: 1.5;
   }
 }

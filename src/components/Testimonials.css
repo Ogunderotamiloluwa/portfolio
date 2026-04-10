@@ -144,20 +144,38 @@
 
 @media (max-width: 480px) {
   .testimonials {
-    padding: 50px 16px;
+    padding: 35px 16px;
   }
 
   .testimonials .section-header h2 {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.8rem;
   }
 
   .testimonials .section-header p {
-    font-size: 0.9rem;
+    font-size: 0.93rem;
+    margin-bottom: 1.5rem;
   }
 
   .testimonials-grid {
-    gap: 15px;
+    gap: 1rem;
   }
+
+  .testimonial-card {
+    padding: 1.3rem;
+    border-radius: 8px;
+  }
+
+  .testimonial-card p {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+  }
+
+  .testimonial-author {
+    font-size: 0.9rem;
+  }
+}
 
   .testimonial-card {
     padding: 20px;

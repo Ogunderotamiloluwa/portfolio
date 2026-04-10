@@ -106,26 +106,28 @@
 
 @media (max-width: 480px) {
   .skills {
-    padding: 50px 16px;
+    padding: 35px 16px;
   }
 
   .skill-category {
-    padding: 1.25rem;
+    padding: 1.3rem;
+    border-radius: 8px;
   }
 
   .skill-category h3 {
-    font-size: 1.1rem;
+    font-size: 1.15rem;
+    margin-bottom: 1.25rem;
   }
 
   .skills-list {
-    gap: 1.25rem;
+    gap: 1.4rem;
   }
 
   .skill-item {
-    gap: 0.5rem;
+    gap: 0.55rem;
   }
 
   .skill-item span {
-    font-size: 0.8rem;
+    font-size: 0.82rem;
   }
 }
