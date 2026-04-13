@@ -8,7 +8,7 @@ export default function Footer() {
   const socialLinks = [
     { icon: FiGithub, href: 'https://github.com/Ogunderotamiloluwa', label: 'GitHub' },
     { icon: FiLinkedin, href: 'https://www.linkedin.com/in/samson-ogundero-6948b13b2', label: 'LinkedIn' },
-    { icon: FiTwitter, href: 'https://twitter.com/samson24434', label: 'Twitter' },
+    { icon: FiTwitter, href: 'https://twitter.com/samson24434', label: 'X (Twitter)' },
     { icon: FiMail, href: 'mailto:ogunderotamiloluwa@gmail.com', label: 'Email' },
   ]
 
@@ -82,7 +82,7 @@ export default function Footer() {
                     title={link.label}
                     className="social-link"
                   >
-                    <Icon size={20} />
+                    <Icon size={20} strokeWidth={1.5} />
                   </a>
                 )
               })}

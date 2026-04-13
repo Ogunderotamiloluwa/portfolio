@@ -123,8 +123,8 @@
 
 .project-content p {
   color: var(--text-secondary);
-  font-size: 0.93rem;
-  line-height: 1.7;
+  font-size: 0.87rem;
+  line-height: 1.65;
   margin: 0;
   padding: 0 0.8rem 0 0;
   display: -webkit-box;
@@ -260,7 +260,7 @@
   }
 
   .project-content p {
-    font-size: 0.82rem;
+    font-size: 0.8rem;
     line-height: 1.55;
     -webkit-line-clamp: 5;
     margin-bottom: 0.5rem;
