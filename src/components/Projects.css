@@ -7,9 +7,14 @@
   max-width: 1400px;
 }
 
+.projects-header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
 .projects .section-title {
   text-align: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
   position: relative;
   padding-bottom: 1rem;
 }
@@ -20,10 +25,19 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 100px;
+  width: 120px;
   height: 4px;
-  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  background: var(--gradient-primary);
   border-radius: 2px;
+}
+
+.projects-subtitle {
+  color: var(--text-muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto;
+  animation: fadeInUp 0.8s ease-out 0.2s both;
 }
 
 .projects-grid {

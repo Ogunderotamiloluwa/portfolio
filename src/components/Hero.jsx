@@ -44,13 +44,14 @@ export default function Hero() {
           </motion.h1>
           
           <motion.p className="hero-subtitle" variants={itemVariants}>
-            Front End Developer
+            Senior Frontend Engineer
           </motion.p>
           
           <motion.p className="hero-description" variants={itemVariants}>
-            I create beautiful, responsive, and performant front-end applications that users love. Specializing in React,
-            I build engaging interfaces for AI platforms, fintech solutions, and high-traffic marketplaces. From pixel-perfect designs
-            to interactive real-time experiences, I craft interfaces that solve real problems.
+            I craft high-performance React applications that scale. From AI platforms 
+            serving 1000+ users to e-commerce marketplaces with complex seat selection systems, 
+            I build polished interfaces that solve real business problems with precision and 
+            attention to detail.
           </motion.p>
 
           <motion.div className="hero-buttons" variants={itemVariants}>
