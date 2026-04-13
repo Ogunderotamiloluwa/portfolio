@@ -41,13 +41,14 @@ export default function Footer() {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <motion.div className="footer-section" variants={itemVariants}>
+          <motion.div className="footer-section footer-brand" variants={itemVariants}>
             <h3>Samson Ogundero</h3>
-            <p>Front End Developer from Lagos, Nigeria</p>
+            <p>Senior Frontend Engineer</p>
+            <p style={{ fontSize: '0.9rem', color: 'var(--text-muted-dark)' }}>Lagos, Nigeria</p>
           </motion.div>
 
           <motion.div className="footer-section" variants={itemVariants}>
-            <h4>Quick Links</h4>
+            <h4>Navigation</h4>
             <ul>
               <li>
                 <a href="#about">About</a>
