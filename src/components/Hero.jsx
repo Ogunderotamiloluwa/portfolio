@@ -1,8 +1,19 @@
 import { motion } from 'framer-motion'
 import { FiArrowRight } from 'react-icons/fi'
+import { useState, useEffect } from 'react'
 import './Hero.css'
 
 export default function Hero() {
+  const roles = ['Senior Frontend Engineer', 'React Specialist', 'UI/UX Developer', 'Problem Solver']
+  const [currentRole, setCurrentRole] = useState(0)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentRole(prev => (prev + 1) % roles.length)
+    }, 4000)
+    return () => clearInterval(interval)
+  }, [])
+
   const scrollToSection = (elementId) => {
     const element = document.getElementById(elementId)
     if (element) {
@@ -53,9 +64,19 @@ export default function Hero() {
             Samson Ogundero Tobiloba
           </motion.h1>
           
-          <motion.p className="hero-subtitle" variants={itemVariants}>
-            Senior Frontend Engineer
-          </motion.p>
+          <motion.div className="hero-subtitle-wrapper" variants={itemVariants}>
+            <span className="hero-label">I'm a</span>
+            <motion.p 
+              className="hero-subtitle"
+              key={currentRole}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.5 }}
+            >
+              {roles[currentRole]}
+            </motion.p>
+          </motion.div>
           
           <motion.p className="hero-description" variants={itemVariants}>
             I craft high-performance React applications that scale. From AI platforms 
